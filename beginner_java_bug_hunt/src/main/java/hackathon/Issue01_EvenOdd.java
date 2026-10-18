@@ -1,7 +1,9 @@
+
 public class Issue01_EvenOdd {
+
     static String evenOrOdd(int number) {
         // BUG: condition and returned labels are inconsistent.
-        if (number % 2 == 1) {
+        if (number % 2 != 1) {
             return "Even";
         }
         return "Odd";
