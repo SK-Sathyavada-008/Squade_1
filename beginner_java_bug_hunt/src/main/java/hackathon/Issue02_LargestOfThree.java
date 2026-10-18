@@ -1,8 +1,10 @@
+
 public class Issue02_LargestOfThree {
+
     static int largest(int a, int b, int c) {
         // BUG: the first branch returns b instead of a.
         if (a > b && a > c) {
-            return b;
+            return a;
         } else if (b > a && b > c) {
             return b;
         }
